@@ -28,8 +28,8 @@ jobs:
 
 
       - name: Build Docker image
-        run: ls 
+        run: docker build -t 8469551344/demo:latest ./sample-service
 
 
       - name: Push Docker image to Docker Hub
-        run: docker push 8469551344/8469
+        run: docker push 8469551344/latest 
