@@ -44,8 +44,8 @@ jobs:
 
 
       - name: Build Docker image
-        run: docker build -t vaishnavi0102/image:latest .
+        run: docker build -t 8469551344/demo:latest .
 
 
       - name: Push Docker image to Docker Hub
-        run: docker push vais/image:latest
+        run: docker push 8469552344/latest
