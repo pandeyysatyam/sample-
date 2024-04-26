@@ -44,7 +44,7 @@ jobs:
 
 
       - name: Build Docker image
-        run: docker build -t .
+        run: docker build -t sample/demo:latest .
 
 
       - name: Push Docker image to Docker Hub
