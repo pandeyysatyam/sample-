@@ -16,7 +16,7 @@
     #       image: docker-hub-repo/image-name
     #       registry: docker.io
     #       username: ${{ secrets.DOCKER_USERNAME }}
-    #       password: ${{ secrets.DOCKER_PASSWORD }}
+    #       password: ${{ secrets.DOCKER_PASSWORD }
 name: Build and Push Docker Image
 
 
